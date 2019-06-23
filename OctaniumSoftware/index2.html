@@ -4,7 +4,7 @@
 	<link rel='icon' type='image/vnd.microsoft.icon' href='favicon.ico'/>
 	<link rel="stylesheet" href="assets/stylesheets/main.css">
 	<link rel="stylesheet" href="assets/stylesheets/slider.css">
-	<link rel="import" href="intro.html">
+	<link rel="import_slider" href="slider.html">
 </head>
 <html>
 	<body>
@@ -19,8 +19,8 @@
 	
 	<script>
 		document.write('Load up ....');
-		var link = document.querySelector('link[rel=import]');
-		var content = link.import.querySelector('#intro-dm');
+		var link = document.querySelector('link[rel=import_slider]');
+		var content = link.import_slider.querySelector('#slider');
 		document.body.appendChild(content.cloneNode(true));
 		document.write('Load up [OK]');
 	</script>
