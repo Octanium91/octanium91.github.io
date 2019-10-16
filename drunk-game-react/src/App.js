@@ -93,28 +93,29 @@ class App extends Component {
   }
 
   SelectGroup = object => {
-    this.setState({ UserSelect: object.target.value });
-    this.setState({ MainBtnDis: false,
+    this.setState({ 
+      UserSelect: object.target.value,
+      MainBtnDis: false,
       StartGame: false,
       pcChoiceRock: false,
       pcChoiceScissors: false,
-      pcChoicePaper: false });
-    this.setState({ GameUpText: this.ReturnPhrase_lp() });
+      pcChoicePaper: false,
+      GameUpText: this.ReturnPhrase_lp() });
   };
 
   GemaOn = () => {
     this.setState({
       pcChoiceRock: false,
       pcChoiceScissors: false,
-      pcChoicePaper: false });
+      pcChoicePaper: false,
+      GameUpText: this.ReturnPodeb(),
+      StartGame: true});
     this.setState({
       GameText: this.AnswerFromPC(
         this.state.UserSelect,
         Math.floor(Math.random() * 3).toString()
       )
     });
-    this.setState({ GameUpText: this.ReturnPodeb() });
-    this.setState({ StartGame: true });
   };
 
   ReturnPodeb = () => {
