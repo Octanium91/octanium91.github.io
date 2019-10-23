@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/drunk-game-react/pub/static/css/main.1476c954.chunk.css",
-    "main.js": "/drunk-game-react/pub/static/js/main.72e35e98.chunk.js",
-    "main.js.map": "/drunk-game-react/pub/static/js/main.72e35e98.chunk.js.map",
-    "runtime-main.js": "/drunk-game-react/pub/static/js/runtime-main.fcb7d711.js",
-    "runtime-main.js.map": "/drunk-game-react/pub/static/js/runtime-main.fcb7d711.js.map",
-    "static/js/2.24f7a9f5.chunk.js": "/drunk-game-react/pub/static/js/2.24f7a9f5.chunk.js",
-    "static/js/2.24f7a9f5.chunk.js.map": "/drunk-game-react/pub/static/js/2.24f7a9f5.chunk.js.map",
-    "index.html": "/drunk-game-react/pub/index.html",
-    "precache-manifest.4c2ae681c042656ce872a5d4273b10e2.js": "/drunk-game-react/pub/precache-manifest.4c2ae681c042656ce872a5d4273b10e2.js",
-    "service-worker.js": "/drunk-game-react/pub/service-worker.js",
-    "static/css/main.1476c954.chunk.css.map": "/drunk-game-react/pub/static/css/main.1476c954.chunk.css.map"
+    "main.css": "/static/css/main.1476c954.chunk.css",
+    "main.js": "/static/js/main.a578256b.chunk.js",
+    "main.js.map": "/static/js/main.a578256b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5dbab7e7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5dbab7e7.js.map",
+    "static/js/2.24f7a9f5.chunk.js": "/static/js/2.24f7a9f5.chunk.js",
+    "static/js/2.24f7a9f5.chunk.js.map": "/static/js/2.24f7a9f5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f2cd187e60b22c92181255d9b7974685.js": "/precache-manifest.f2cd187e60b22c92181255d9b7974685.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.1476c954.chunk.css.map": "/static/css/main.1476c954.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.fcb7d711.js",
+    "static/js/runtime-main.5dbab7e7.js",
     "static/js/2.24f7a9f5.chunk.js",
     "static/css/main.1476c954.chunk.css",
-    "static/js/main.72e35e98.chunk.js"
+    "static/js/main.a578256b.chunk.js"
   ]
 }
