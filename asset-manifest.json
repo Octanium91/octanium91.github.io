@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Octanium91/octanium91.github.io/tree/master/drunk-game-react/static/css/main.1476c954.chunk.css",
+    "main.js": "/Octanium91/octanium91.github.io/tree/master/drunk-game-react/static/js/main.f5bd0802.chunk.js",
+    "main.js.map": "/Octanium91/octanium91.github.io/tree/master/drunk-game-react/static/js/main.f5bd0802.chunk.js.map",
+    "runtime-main.js": "/Octanium91/octanium91.github.io/tree/master/drunk-game-react/static/js/runtime-main.38835437.js",
+    "runtime-main.js.map": "/Octanium91/octanium91.github.io/tree/master/drunk-game-react/static/js/runtime-main.38835437.js.map",
+    "static/js/2.24f7a9f5.chunk.js": "/Octanium91/octanium91.github.io/tree/master/drunk-game-react/static/js/2.24f7a9f5.chunk.js",
+    "static/js/2.24f7a9f5.chunk.js.map": "/Octanium91/octanium91.github.io/tree/master/drunk-game-react/static/js/2.24f7a9f5.chunk.js.map",
+    "index.html": "/Octanium91/octanium91.github.io/tree/master/drunk-game-react/index.html",
+    "precache-manifest.7547a8c0133358042aa660b4c356c4ff.js": "/Octanium91/octanium91.github.io/tree/master/drunk-game-react/precache-manifest.7547a8c0133358042aa660b4c356c4ff.js",
+    "service-worker.js": "/Octanium91/octanium91.github.io/tree/master/drunk-game-react/service-worker.js",
+    "static/css/main.1476c954.chunk.css.map": "/Octanium91/octanium91.github.io/tree/master/drunk-game-react/static/css/main.1476c954.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.38835437.js",
+    "static/js/2.24f7a9f5.chunk.js",
+    "static/css/main.1476c954.chunk.css",
+    "static/js/main.f5bd0802.chunk.js"
+  ]
+}
