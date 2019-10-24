@@ -1,7 +1,3 @@
-link for [Start React App](https://octanium91.github.io/drunk-game-react/run).
-
-## Default READ.me
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
