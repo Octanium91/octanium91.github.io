@@ -1,0 +1,64 @@
+.canvas_frame {
+    float: left;
+    background-color: white;
+    border: #303030;
+    border-style: solid;
+}
+
+.Main_block {
+    float: left;    
+}
+
+.Frame {
+    float: left;
+    display: block;
+    margin: 5px;
+    width: 454px;    
+}
+
+.PlayBTN {
+    border: 5;
+    /* background: none; */
+    box-shadow: none;
+    border-radius: 0px;
+    width: 100%;
+    height: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    margin: 1px; 
+}
+
+.PlayBTN:hover {
+    cursor: pointer;
+}
+
+.Statistic {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    float: left;
+    display: block; 
+    margin: 2px;
+    /* width: 100px; */
+}
+
+.text {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    float: left;
+    display: block; 
+    margin: 2px;
+    /* width: 100%; */
+    word-wrap: break-word;
+}
+
+
+.Statistic-frames {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    float: left;
+}
+
+.Statistic-ObjCount {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    float: left;
+}
