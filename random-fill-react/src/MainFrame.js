@@ -9,7 +9,7 @@ class MainFrame extends Component {
         BallPreFrime: 50,
         color: 1,
         ObjectsCount: 0,
-        ObjectsMaxCount: 100000,
+        ObjectsMaxCount: 200000,
         frames: 0
     }
 
