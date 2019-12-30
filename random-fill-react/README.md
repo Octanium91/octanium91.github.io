@@ -1,5 +1,5 @@
 
-Start app ==> [Random fill](https://octanium91.github.io/random-fill-react/run/).
+Start app ==> [Random fill](https://octanium91.github.io/random-fill-react/build/).
 
 ## default READ.ME
 
