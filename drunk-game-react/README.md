@@ -1,3 +1,8 @@
+
+Start app ==> [Random fill](https://octanium91.github.io/drunk-game-react/).
+
+## default READ.ME
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
