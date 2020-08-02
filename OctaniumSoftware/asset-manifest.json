@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "./static/css/main.bb4a2b3b.chunk.css",
-    "main.js": "./static/js/main.2901a55e.chunk.js",
-    "main.js.map": "./static/js/main.2901a55e.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.786fce94.js",
-    "runtime-main.js.map": "./static/js/runtime-main.786fce94.js.map",
-    "static/js/2.a1bf0dea.chunk.js": "./static/js/2.a1bf0dea.chunk.js",
-    "static/js/2.a1bf0dea.chunk.js.map": "./static/js/2.a1bf0dea.chunk.js.map",
+    "main.css": "./static/css/main.d2806d71.chunk.css",
+    "main.js": "./static/js/main.6a9f026a.chunk.js",
+    "main.js.map": "./static/js/main.6a9f026a.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.a574bdb4.js",
+    "runtime-main.js.map": "./static/js/runtime-main.a574bdb4.js.map",
+    "static/js/2.454b0523.chunk.js": "./static/js/2.454b0523.chunk.js",
+    "static/js/2.454b0523.chunk.js.map": "./static/js/2.454b0523.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.fdc49b395c89c4580b132ddd068ce900.js": "./precache-manifest.fdc49b395c89c4580b132ddd068ce900.js",
+    "precache-manifest.d1d7713c97b7b01672a5c6173c02a324.js": "./precache-manifest.d1d7713c97b7b01672a5c6173c02a324.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.bb4a2b3b.chunk.css.map": "./static/css/main.bb4a2b3b.chunk.css.map",
-    "static/js/2.a1bf0dea.chunk.js.LICENSE": "./static/js/2.a1bf0dea.chunk.js.LICENSE",
+    "static/css/main.d2806d71.chunk.css.map": "./static/css/main.d2806d71.chunk.css.map",
+    "static/js/2.454b0523.chunk.js.LICENSE.txt": "./static/js/2.454b0523.chunk.js.LICENSE.txt",
     "static/media/ASC_ICON.webp": "./static/media/ASC_ICON.08ce0471.webp",
     "static/media/ERI_icon.webp": "./static/media/ERI_icon.b15e25c9.webp",
-    "static/media/Reactlogo.svg": "./static/media/Reactlogo.5d5d9eef.svg",
+    "static/media/Reactlogo.svg": "./static/media/Reactlogo.ee7cd8ed.svg",
     "static/media/ReactlogoMultyLng.png": "./static/media/ReactlogoMultyLng.49b691d3.png",
+    "static/media/ReactlogoYTOptLib.png": "./static/media/ReactlogoYTOptLib.37cf1871.png",
     "static/media/my_photo.jpg": "./static/media/my_photo.21159068.jpg",
     "static/media/xda-flat-circle-icon-256.webp": "./static/media/xda-flat-circle-icon-256.ee053e12.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.786fce94.js",
-    "static/js/2.a1bf0dea.chunk.js",
-    "static/css/main.bb4a2b3b.chunk.css",
-    "static/js/main.2901a55e.chunk.js"
+    "static/js/runtime-main.a574bdb4.js",
+    "static/js/2.454b0523.chunk.js",
+    "static/css/main.d2806d71.chunk.css",
+    "static/js/main.6a9f026a.chunk.js"
   ]
 }
