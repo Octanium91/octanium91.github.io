@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "13cbd1efa66a08abef83bfb8f9975469",
+    "revision": "f3cd78e877bf769e62f1898ac36e558c",
     "url": "./index.html"
   },
   {
-    "revision": "84d7ca593b52b145b68f",
+    "revision": "b2c4c0e0f745439ad030",
     "url": "./static/css/main.be296b5b.chunk.css"
   },
   {
-    "revision": "c03cbeef9e9be530a0c2",
-    "url": "./static/js/2.5699eaad.chunk.js"
+    "revision": "3f9925bc2729140389b1",
+    "url": "./static/js/2.7dffe67d.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "./static/js/2.5699eaad.chunk.js.LICENSE.txt"
+    "url": "./static/js/2.7dffe67d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "84d7ca593b52b145b68f",
-    "url": "./static/js/main.46a8498d.chunk.js"
+    "revision": "b2c4c0e0f745439ad030",
+    "url": "./static/js/main.52e090b2.chunk.js"
   },
   {
     "revision": "cdd3f70b8250c30a6022",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "37cf1871f1df20317551a6086f3960e3",
     "url": "./static/media/ReactlogoYTOptLib.37cf1871.png"
+  },
+  {
+    "revision": "e51fb0b6e036d06bd3f5c5a70161608f",
+    "url": "./static/media/fingerprint.e51fb0b6.png"
   },
   {
     "revision": "21159068ba377d9d7d2fa42a3f0db8af",
