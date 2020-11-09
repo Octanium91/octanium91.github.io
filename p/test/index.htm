@@ -8,6 +8,8 @@
 	<body>
 		<script>
 
+			import rom from "./game.bin"
+
 			var userLanguage = window.navigator.userLanguage || window.navigator.language;
 
 			var ROMDATA = "";
@@ -189,12 +191,12 @@
 			}
 
 			function loadRomIntoVD() {
-				var filereader = new FileReader();
-				filereader.file_name = 'C:\\Users\\octan\\Downloads\\Earthworm Jim\\Earthworm Jim (U) [!].gen';
-				filereader.onload = function () {
+				// var filereader = new FileReader();
+				// filereader.file_name = 'C:\\Users\\octan\\Downloads\\Earthworm Jim\\Earthworm Jim (U) [!].gen';
+				// filereader.onload = function () {
 
 					// CREATING THE ROM FILE IN THE VIRTUAL DRIVE
-					var dataView = new Uint8Array(this.result);
+					var dataView = new Uint8Array(rom);
 					FS.createDataFile("/", "game.bin", dataView, true, false);
 
 					// CREATING THE FOLDERS IN THE VIRTUAL DRIVE IN ORDER TO SAVE THE CONFIG FILE
@@ -468,7 +470,6 @@
 
 					// WAITING A PRUDENTIAL TIME FOR THE RETROARCH.CFG FILE TO BE CREATED
 					settings_Checker = setInterval(checkSettingsFile, 1000);
-				}
 			}
 
 			function checkSettingsFile()
