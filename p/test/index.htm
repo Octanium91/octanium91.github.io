@@ -193,7 +193,7 @@
 			function loadRomIntoVD(file) {
 				var filereader = new FileReader();
 				filereader.file_name = file.name;
-				console.log("FILE LOAD")
+				console.log("FILE LOAD", file.name)
 				filereader.onload = function () {
 					console.log("LOAD BIN FILE END")
 					ROMNAME = file.name;
