@@ -193,8 +193,9 @@
 			function loadRomIntoVD(file) {
 				var filereader = new FileReader();
 				filereader.file_name = file.name;
+				console.log("FILE LOAD")
 				filereader.onload = function () {
-
+					console.log("LOAD BIN FILE END")
 					ROMNAME = file.name;
 					ROMNAME = ROMNAME;
 					DOSGAME = false;
@@ -725,7 +726,7 @@
 					}
 				}
 
-			function upload_getFile(files) {
+			function uploadBin_getFile(files) {
 			}
 				loadRomIntoVD(files[0]);
 			}
@@ -955,7 +956,7 @@
 		<div class="gui_loading"><script>document.write(this.STRING_LOADING);</script></div>
 		<div class="gui_saving"><script>document.write(this.STRING_SAVING);</script></div>
 		<input type="file" class="fileupload_uploader" id="fileupload_uploader" onchange="upload_getFile(event.target.files);" />
-		<input type="file" class="fileupload_bin" id="fileupload_bin" onchange="upload_getFile(event.target.files);" />
+		<input type="file" class="fileupload_bin" id="fileupload_bin" onchange="uploadBin_getFile(event.target.files);" />
 		<script src="Emulatrix_SegaGenesis.js"></script>
 	</body>
 </html>
