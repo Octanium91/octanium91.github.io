@@ -190,13 +190,16 @@
 				}
 			}
 
-			function loadRomIntoVD() {
-				// var filereader = new FileReader();
-				// filereader.file_name = 'C:\\Users\\octan\\Downloads\\Earthworm Jim\\Earthworm Jim (U) [!].gen';
-				// filereader.onload = function () {
+			function loadRomIntoVD(file) {
+				var filereader = new FileReader();
+				filereader.file_name = file.name;
+				filereader.onload = function () {
 
+					ROMNAME = file.name;
+					ROMNAME = ROMNAME;
+					DOSGAME = false;
 					// CREATING THE ROM FILE IN THE VIRTUAL DRIVE
-					var dataView = new Uint8Array(rom);
+					var dataView = new Uint8Array(this.result);
 					FS.createDataFile("/", "game.bin", dataView, true, false);
 
 					// CREATING THE FOLDERS IN THE VIRTUAL DRIVE IN ORDER TO SAVE THE CONFIG FILE
@@ -470,6 +473,7 @@
 
 					// WAITING A PRUDENTIAL TIME FOR THE RETROARCH.CFG FILE TO BE CREATED
 					settings_Checker = setInterval(checkSettingsFile, 1000);
+				}
 			}
 
 			function checkSettingsFile()
@@ -721,6 +725,11 @@
 					}
 				}
 
+			function upload_getFile(files) {
+			}
+				loadRomIntoVD(files[0]);
+			}
+
 			function upload_getFile(files)
 				{
 				try
@@ -731,6 +740,7 @@
 						{
 						// SETTING THE UPLOADING PROCESS AS TRUE
 						upload_running = true;
+						console.log("dsadasdsdsad")
 
 						// READING THE SELECTED FILE
 						var filereader = new FileReader();
@@ -945,6 +955,7 @@
 		<div class="gui_loading"><script>document.write(this.STRING_LOADING);</script></div>
 		<div class="gui_saving"><script>document.write(this.STRING_SAVING);</script></div>
 		<input type="file" class="fileupload_uploader" id="fileupload_uploader" onchange="upload_getFile(event.target.files);" />
+		<input type="file" class="fileupload_bin" id="fileupload_bin" onchange="upload_getFile(event.target.files);" />
 		<script src="Emulatrix_SegaGenesis.js"></script>
 	</body>
 </html>
