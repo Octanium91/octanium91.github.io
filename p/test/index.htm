@@ -932,7 +932,7 @@
 				return true;
 				}
 		</script>
-		<div class="gui_pleasewait_title"><script>document.write(STRING_STARTINGEMULATOR);</script></div><div class="pleasewait"><div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+		<div class="gui_pleasewait_title"><script>document.write(this.STRING_STARTINGEMULATOR);</script></div><div class="pleasewait"><div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
 		<div id="container"><canvas id="canvas" oncontextmenu="event.preventDefault()"></canvas></div>
 		<div class="gui_joystick" id="joyDiv"></div>
 		<div class="gui_segagenesis_keystart" oncontextmenu="return false;">START</div>
@@ -942,8 +942,8 @@
 		<div class="gui_segagenesis_keyx" oncontextmenu="return false;">X</div>
 		<div class="gui_segagenesis_keyy" oncontextmenu="return false;">Y</div>
 		<div class="gui_segagenesis_keyz" oncontextmenu="return false;">Z</div>
-		<div class="gui_loading"><script>document.write(STRING_LOADING);</script></div>
-		<div class="gui_saving"><script>document.write(STRING_SAVING);</script></div>
+		<div class="gui_loading"><script>document.write(this.STRING_LOADING);</script></div>
+		<div class="gui_saving"><script>document.write(this.STRING_SAVING);</script></div>
 		<input type="file" class="fileupload_uploader" id="fileupload_uploader" onchange="upload_getFile(event.target.files);" />
 		<script src="Emulatrix_SegaGenesis.js"></script>
 	</body>
