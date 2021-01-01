@@ -1,0 +1,20 @@
+{
+  "short_name": "Octanium",
+  "name": "Octanium Software",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "32x28 24x20 16x12",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "favicon.png",
+      "type": "image/png",
+      "sizes": "32x28"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
